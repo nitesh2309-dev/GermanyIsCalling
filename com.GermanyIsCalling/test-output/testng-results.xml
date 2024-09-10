@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T23:39:01 IST" name="Suite" finished-at="2024-09-10T23:39:19 IST" duration-ms="17800">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T23:39:01 IST" name="Test" finished-at="2024-09-10T23:39:19 IST" duration-ms="17800">
+      <class name="com.Germany.TestScripts.LoginPass">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Germany.TestScripts.LoginPass@53045c6c]" started-at="2024-09-10T23:39:01 IST" name="openBrowser" finished-at="2024-09-10T23:39:11 IST" duration-ms="10191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:com.Germany.TestScripts.LoginPass@53045c6c]" started-at="2024-09-10T23:39:11 IST" name="login" finished-at="2024-09-10T23:39:13 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Germany.TestScripts.LoginPass@53045c6c]" started-at="2024-09-10T23:39:13 IST" name="closeBrowser" finished-at="2024-09-10T23:39:14 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Germany.TestScripts.LoginPass -->
+      <class name="com.Germany.TestScripts.LoginFail">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Germany.TestScripts.LoginFail@33065d67]" started-at="2024-09-10T23:39:14 IST" name="openBrowser" finished-at="2024-09-10T23:39:17 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginfail()[pri:0, instance:com.Germany.TestScripts.LoginFail@33065d67]" started-at="2024-09-10T23:39:17 IST" name="loginfail" finished-at="2024-09-10T23:39:19 IST" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Germany.TestScripts.LoginFail@33065d67]" started-at="2024-09-10T23:39:19 IST" name="closeBrowser" finished-at="2024-09-10T23:39:19 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Germany.TestScripts.LoginFail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
